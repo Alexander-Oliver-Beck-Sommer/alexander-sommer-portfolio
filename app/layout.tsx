@@ -1,11 +1,9 @@
-import "./globals.css";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import "./globals.scss";
 
 export const metadata = {
   title: "Alexander Sommer's Portfolio",
-  description: "Hurr durr - ping pong, bing bong - this is a hurr durr Portfolio description - PagChomp",
+  description:
+    "Hurr durr - ping pong, bing bong - this is a hurr durr Portfolio description - PagChomp",
 };
 
 export default function RootLayout({
@@ -15,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
