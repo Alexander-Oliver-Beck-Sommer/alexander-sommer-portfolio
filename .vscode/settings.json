@@ -1,0 +1,44 @@
+{
+  "actionButtons": {
+    "defaultColor": "white",
+    "loadNpmCommands": false,
+    "reloadButton": "🔄️ Reload",
+    "commands": [
+      {
+        "name": "▶️ Run Dev",
+        "color": "#3ED04D",
+        "command": "npm run dev"
+      },
+      {
+        "name": "🎦 Tailwind Viewer",
+        "color": "#3ED04D",
+        "command": "npx tailwind-config-viewer"
+      },
+      {
+        "name": "🏗️ Run Build",
+        "color": "#F9C74F",
+        "command": "npm run build"
+      },
+      {
+        "name": "📦 NPM I",
+        "color": "#F9C74F",
+        "command": "npm install"
+      },
+      {
+        "name": "🆚 NVM Version",
+        "color": "#F9C74F",
+        "command": "npm current version"
+      },
+      {
+        "name": "🔒 NPM Audit",
+        "color": "#F9C74F",
+        "command": "npm audit"
+      },
+      {
+        "name": "🛠️ NPM Audit Fix",
+        "color": "#F9C74F",
+        "command": "npm audit fix"
+      }
+    ]
+  }
+}
