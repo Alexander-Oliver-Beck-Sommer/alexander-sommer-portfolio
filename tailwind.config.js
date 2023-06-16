@@ -24,6 +24,10 @@ module.exports = {
       blue: "#4175F9",
       yellow: "#F9C74F",
     },
+    fontFamily: {
+      title: ["Yantramanav"],
+      body: ["Roboto"],
+    },
   },
   plugins: [],
 };
