@@ -27,7 +27,7 @@
       {
         "name": "🆚 NVM Version",
         "color": "#F9C74F",
-        "command": "npm current version"
+        "command": "nvm current version"
       },
       {
         "name": "🔒 NPM Audit",
